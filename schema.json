@@ -1,0 +1,352 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "דף הבית",
+     "item": "https://suncar.co.il/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "ליסינג פרטי",
+     "item": "https://suncar.co.il/private/"
+    }
+   ]
+  },
+  {
+   "@type": "AutoRental",
+   "@id": "https://suncar.co.il/#organization",
+   "name": "Suncar סאן קאר",
+   "url": "https://suncar.co.il/",
+   "logo": "https://suncar.co.il/wp-content/uploads/2024/03/suncar-logo.png",
+   "telephone": "*2021",
+   "foundingDate": "1973",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.3",
+    "reviewCount": "508",
+    "bestRating": "5"
+   }
+  },
+  {
+   "@type": "OfferCatalog",
+   "name": "ליסינג פרטי – רכבים במלאי",
+   "url": "https://suncar.co.il/private/",
+   "itemListElement": [
+    {
+     "@type": "Offer",
+     "url": "https://suncar.co.il/private/mg3-%d7%91%d7%a0%d7%96%d7%99%d7%9f-1-5-%d7%90%d7%95%d7%98/",
+     "price": 1850,
+     "priceCurrency": "ILS",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": 1850,
+      "priceCurrency": "ILS",
+      "unitText": "MONTH",
+      "valueAddedTaxIncluded": true
+     },
+     "availability": "https://schema.org/InStock",
+     "seller": {
+      "@id": "https://suncar.co.il/#organization"
+     },
+     "itemOffered": {
+      "@type": "Car",
+      "name": "MG3 בנזין 1.5 אוט׳ – MG3 Comfort 1.5L",
+      "vehicleModelDate": "2026",
+      "itemCondition": "https://schema.org/NewCondition"
+     }
+    },
+    {
+     "@type": "Offer",
+     "url": "https://suncar.co.il/private/%d7%a1%d7%99%d7%90%d7%98-%d7%90%d7%a8%d7%95%d7%a0%d7%94/",
+     "price": 2290,
+     "priceCurrency": "ILS",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": 2290,
+      "priceCurrency": "ILS",
+      "unitText": "MONTH",
+      "valueAddedTaxIncluded": true
+     },
+     "availability": "https://schema.org/InStock",
+     "seller": {
+      "@id": "https://suncar.co.il/#organization"
+     },
+     "itemOffered": {
+      "@type": "Car",
+      "name": "סיאט ארונה TSI STYLE 1.0",
+      "vehicleModelDate": "2026",
+      "itemCondition": "https://schema.org/NewCondition"
+     }
+    },
+    {
+     "@type": "Offer",
+     "url": "https://suncar.co.il/private/%d7%a7%d7%99%d7%94-%d7%a1%d7%a4%d7%95%d7%a8%d7%98%d7%92-hybrid/",
+     "price": 3250,
+     "priceCurrency": "ILS",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": 3250,
+      "priceCurrency": "ILS",
+      "unitText": "MONTH",
+      "valueAddedTaxIncluded": true
+     },
+     "availability": "https://schema.org/InStock",
+     "seller": {
+      "@id": "https://suncar.co.il/#organization"
+     },
+     "itemOffered": {
+      "@type": "Car",
+      "name": "קיה ספורטג׳ HYBRID Urban",
+      "vehicleModelDate": "2026",
+      "itemCondition": "https://schema.org/NewCondition"
+     }
+    },
+    {
+     "@type": "Offer",
+     "url": "https://suncar.co.il/private/byd-atto-2/",
+     "price": 2390,
+     "priceCurrency": "ILS",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": 2390,
+      "priceCurrency": "ILS",
+      "unitText": "MONTH",
+      "valueAddedTaxIncluded": true
+     },
+     "availability": "https://schema.org/InStock",
+     "seller": {
+      "@id": "https://suncar.co.il/#organization"
+     },
+     "itemOffered": {
+      "@type": "Car",
+      "name": "BYD Atto 2 DM-i Active PHEV",
+      "vehicleModelDate": "2026",
+      "itemCondition": "https://schema.org/NewCondition"
+     }
+    },
+    {
+     "@type": "Offer",
+     "url": "https://suncar.co.il/private/%d7%98%d7%95%d7%99%d7%95%d7%98%d7%94-%d7%99%d7%90%d7%a8%d7%99%d7%a1-%d7%a7%d7%a8%d7%95%d7%a1-eco/",
+     "price": 2390,
+     "priceCurrency": "ILS",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": 2390,
+      "priceCurrency": "ILS",
+      "unitText": "MONTH",
+      "valueAddedTaxIncluded": true
+     },
+     "availability": "https://schema.org/InStock",
+     "seller": {
+      "@id": "https://suncar.co.il/#organization"
+     },
+     "itemOffered": {
+      "@type": "Car",
+      "name": "טויוטה יאריס קרוס ECO Hybrid",
+      "vehicleModelDate": "2026",
+      "itemCondition": "https://schema.org/NewCondition"
+     }
+    },
+    {
+     "@type": "Offer",
+     "url": "https://suncar.co.il/private/jaecoo-7/",
+     "price": 3100,
+     "priceCurrency": "ILS",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": 3100,
+      "priceCurrency": "ILS",
+      "unitText": "MONTH",
+      "valueAddedTaxIncluded": true
+     },
+     "availability": "https://schema.org/InStock",
+     "seller": {
+      "@id": "https://suncar.co.il/#organization"
+     },
+     "itemOffered": {
+      "@type": "Car",
+      "name": "JAECOO 7 PHEV Elegance",
+      "vehicleModelDate": "2026",
+      "itemCondition": "https://schema.org/NewCondition"
+     }
+    },
+    {
+     "@type": "Offer",
+     "url": "https://suncar.co.il/private/%d7%a1%d7%99%d7%90%d7%98-%d7%90%d7%99%d7%91%d7%99%d7%96%d7%94/",
+     "price": 2150,
+     "priceCurrency": "ILS",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": 2150,
+      "priceCurrency": "ILS",
+      "unitText": "MONTH",
+      "valueAddedTaxIncluded": true
+     },
+     "availability": "https://schema.org/InStock",
+     "seller": {
+      "@id": "https://suncar.co.il/#organization"
+     },
+     "itemOffered": {
+      "@type": "Car",
+      "name": "סיאט איביזה 1.0 STYLE",
+      "vehicleModelDate": "2026",
+      "itemCondition": "https://schema.org/NewCondition"
+     }
+    },
+    {
+     "@type": "Offer",
+     "url": "https://suncar.co.il/private/%d7%a7%d7%99%d7%94-%d7%a4%d7%99%d7%a7%d7%a0%d7%98%d7%95-lx-%d7%90%d7%95%d7%98/",
+     "price": 1950,
+     "priceCurrency": "ILS",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": 1950,
+      "priceCurrency": "ILS",
+      "unitText": "MONTH",
+      "valueAddedTaxIncluded": true
+     },
+     "availability": "https://schema.org/InStock",
+     "seller": {
+      "@id": "https://suncar.co.il/#organization"
+     },
+     "itemOffered": {
+      "@type": "Car",
+      "name": "קיה פיקנטו LX PLUS 1.0",
+      "vehicleModelDate": "2026",
+      "itemCondition": "https://schema.org/NewCondition"
+     }
+    },
+    {
+     "@type": "Offer",
+     "url": "https://suncar.co.il/private/jaecoo-5-hybrid/",
+     "price": 2690,
+     "priceCurrency": "ILS",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": 2690,
+      "priceCurrency": "ILS",
+      "unitText": "MONTH",
+      "valueAddedTaxIncluded": true
+     },
+     "availability": "https://schema.org/InStock",
+     "seller": {
+      "@id": "https://suncar.co.il/#organization"
+     },
+     "itemOffered": {
+      "@type": "Car",
+      "name": "JAECOO 5 HYBRID Premium",
+      "vehicleModelDate": "2026",
+      "itemCondition": "https://schema.org/NewCondition"
+     }
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "מה זה ליסינג פרטי ואיך זה עובד?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "ליסינג פרטי הוא חכירת רכב חדש לתקופה קבועה, ב-Suncar של 36 או 48 חודשים, בתשלום חודשי קבוע. בוחרים דגם, תקופה ומכסת ק״מ שנתית, משלמים מקדמה של ₪7,900 ותשלום חודשי שכולל ביטוח, טיפולים ורישוי, ובסוף התקופה מחזירים את הרכב או רוכשים אותו."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "כמה עולה ליסינג פרטי בחודש?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "ב-Suncar המחירים מתחילים ב-₪1,850 לחודש (MG3) ומגיעים ל-₪3,250 (קיה ספורטג׳ HYBRID), לעסקה של 36 חודשים ו-20,000 ק״מ בשנה, עם מקדמה של ₪7,900 וכולל מע״מ. בעסקה של 48 חודשים המחירים מתחילים ב-₪1,690. מכסה של 15,000 ק״מ מוזילה ב-₪70 לחודש, ו-25,000 ק״מ מוסיפים ₪160."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "האם אפשר ליסינג פרטי ללא מקדמה?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "כרגע כל עסקאות הליסינג הפרטי ב-Suncar כוללות מקדמה של ₪7,900, גם ב-36 וגם ב-48 חודשים. זו מקדמה נמוכה ביחס למחיר הרכב: למשל ₪7,900 במקום ₪119,888 לקניית MG3 חדש."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "לכמה זמן חותמים על עסקת ליסינג פרטי?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "עסקאות הליסינג הפרטי ב-Suncar הן ל-36 או ל-48 חודשים. מי שצריך רכב לתקופה קצרה יותר יכול לבחור בהשכרת רכב לטווח ארוך."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "מה קורה בסוף תקופת הליסינג? אפשר לקנות את הרכב?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "בתום התקופה מחזירים את הרכב לסאן קאר בהתאם לתנאי ההסכם, או רוכשים אותו במחיר שסוכם מראש. רוצים להמשיך לרכב חדש? נתאים לכם עסקת ליסינג חדשה."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "מה קורה אם עוברים את מכסת הקילומטרים?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "על כל ק״מ מעבר למכסה שבחרתם ועד 25,000 ק״מ בשנה משלמים ₪0.50, כולל מע״מ. מעל 25,000 ק״מ בשנה התשלום הוא ₪1 לכל ק״מ נוסף, כולל מע״מ."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "האם אפשר להחזיר את הרכב לפני סוף התקופה, ומה העלות?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "כן. אפשר לסיים לפני תום התקופה לפי מדרגות היציאה שמופיעות בהסכם הליסינג, כתובות מראש ובעברית פשוטה. נציג יעבור איתכם על האפשרויות והמשמעות הכספית לפני כל החלטה."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "אילו מסמכים צריך ומה נדרש באישור אשראי?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "ההתקשרות כפופה לחתימה על מסמכי החכירה, לבדיקת יכולת כלכלית ולאישור החברה. נציג ליסינג יפרט לכם את המסמכים הנדרשים ואת כל התנאים לפני שמתקדמים."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "מי משלם על ביטוח, טיפולים ותאונות?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "הכל כלול חוץ מדלק: ביטוח חובה ומקיף, טיפולים עפ״י מפרט יצרן, אגרת רישוי שנתית, שירותי דרך וגרירה 24/7, רכב חלופי בתאונה או גניבה, צמיגים, מצבר ומגבים. אפשר להוסיף ביטול השתתפות עצמית ב-₪125 לחודש וכיסוי לנהג צעיר או חדש ב-₪99 לחודש."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "מה ההבדל בין ליסינג פרטי לליסינג תפעולי?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "שני המסלולים דומים: הרכב שייך לחברת הליסינג והיא מטפלת בו. ליסינג פרטי מיועד לאנשים פרטיים ומשפחות, וליסינג תפעולי מיועד לעסקים וחברות ומוכר כהוצאה עסקית."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "האם ליסינג פרטי משתלם יותר מקניית רכב?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "למי שמחליף רכב כל 3–4 שנים ונוסע עד 25,000 ק״מ בשנה, ליסינג פרטי חוסך הון ראשוני וירידת ערך. מי ששומר רכב שנים רבות או נוסע הרבה מאוד, ירוויח בדרך כלל יותר מקנייה."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "תוך כמה זמן אקבל את הרכב?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "דגמים שנמצאים במלאי המיידי נמסרים תוך 72 שעות. דגמים אחרים נמסרים בדרך כלל עד 21 ימי עסקים מרגע החתימה ואישור המימון, ונעדכן אתכם במועד המסירה הצפוי."
+     }
+    }
+   ]
+  }
+ ]
+}
